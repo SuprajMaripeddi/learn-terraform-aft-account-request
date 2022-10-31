@@ -57,16 +57,16 @@ module "sandbox3" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "suprajawspoc28@gmail.com"
-    AccountName               = "shared"
+    AccountEmail              = "suprajawspoc29@gmail.com"
+    AccountName               = "network"
     ManagedOrganizationalUnit = "core-OU"
-    SSOUserEmail              = "suprajawspoc28@gmail.com"
-    SSOUserFirstName          = "shared"
+    SSOUserEmail              = "suprajawspoc29@gmail.com"
+    SSOUserFirstName          = "network"
     SSOUserLastName           = "account"
   }
 
   account_tags = {
-    "Account_type" = "Shared account"
+    "Account_type" = "Network account"
   }
 
   change_management_parameters = {
